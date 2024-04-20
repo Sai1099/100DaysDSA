@@ -12,3 +12,26 @@ for t in range(1,n2):
 print(list4)
 y =list(set(list1).intersection(list4))
 print(max(y))
+##Coding Ninja code
+"""
+def calcGDC(a:int, b: int) -> int:
+
+    while(a>0 and b>0):
+
+        if(a>b):
+
+            a=int(a%b)
+
+        else:
+
+            b=int(b%a)
+
+        
+
+    if(a==0):
+
+        return b
+
+    return a
+
+"""
